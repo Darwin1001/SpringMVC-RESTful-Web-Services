@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"  # Emplacement du fichier pom.xml
+    schedule:
+      interval: "daily"  # Vérification quotidienne des mises à jour
